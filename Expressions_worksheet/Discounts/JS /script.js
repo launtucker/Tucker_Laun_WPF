@@ -6,3 +6,5 @@ var startPrice = 30.99;
 var discount = 10;
 var name = "hat";
 var taxes = 5;
+
+// going to come back to this
