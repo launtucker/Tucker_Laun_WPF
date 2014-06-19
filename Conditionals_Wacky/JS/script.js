@@ -1,20 +1,20 @@
 /**
  * Created by launi tucker on 6/19/14 Wacky Conditional.
  */
-// validate if user is old enough to buy e-juice
+    // Average Person chews 300 of gum a year.
+var peopleChew = alert("The average person chews at least 300 pieces of gum a year!");
+var gumChewed = prompt("How much gum do you think you chew in a Year?");
+var averagePerson = 300;
 
-var userInput = prompt("Please type name?");
-var age = prompt("Please type your age?");
+// Prompt for over 300 pieces
+// Prompt for under 300 pieces.
 
-// if the person is under the age of 18 they cant buy ejuice from the site.
-// if the are of age then they can purchase e-juice from the web site.
-
-if(age > 18){
+if(gumChewed > 300){
     //code that says they can buy products
-    console.log(userInput + "Congratulations you can buy from this site!")
+    console.log("Congratulations you are just like the average person..and may have TMJ!")
 
 }else{
     // if user is under age code prompts
-    console.log(userInput + " nice try kiddo..Come back when you are 18!")
+    console.log("You may want to pick up that pace there slacker!")
 
 }
