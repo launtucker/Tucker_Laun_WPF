@@ -2,6 +2,7 @@
  * Created by laun tucker on 6/19/14 Conditionals_Industry.
  */
 // validate if user is old enough to buy e-juice
+    // a website built to sell e-juice.
 
 var userInput = prompt("Please type name?");
 var age = prompt("Please type your age?");
