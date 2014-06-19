@@ -11,10 +11,10 @@ var age = prompt("Please type your age?");
 
 if(age > 18){
     //code that says they can buy products
-    console.log("Congratulations you can buy from this site")
+    console.log(userInput + "Congratulations you can buy from this site!")
 
 }else{
     // if user is under age code prompts
-    console.log("Nice try kiddo..Come back when you are 18!")
+    console.log(userInput + " nice try kiddo..Come back when you are 18!")
 
 }
