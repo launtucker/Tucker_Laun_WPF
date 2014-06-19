@@ -1,12 +1,11 @@
 /**
- * Created by laun tucker on 6/19/14 Conditionals_Wacky.
+ * Created by laun tucker on 6/19/14 Conditionals_Industry.
  */
+// validate if user is old enough to buy e-juice
+    // a website built to sell e-juice.
 
-    // How much gum do you chew
-
-var averagePerson = 300;
-var gumChewed = prompt("How much gum do you chew?");
-
+var userInput = prompt("Please type name?");
+var age = prompt("Please type your age?");
 
 // if the person is under the age of 18 they cant buy ejuice from the site.
 // if the are of age then they can purchase e-juice from the web site.
