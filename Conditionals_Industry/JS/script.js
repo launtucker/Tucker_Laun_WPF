@@ -1,5 +1,5 @@
 /**
- * Created by laun tucker on 6/19/14 Conditionals_Industry.
+ * Created by laun tucker on 6/19/14 Conditionals_Wacky.
  */
 // validate if user is old enough to buy e-juice
     // a website built to sell e-juice.
