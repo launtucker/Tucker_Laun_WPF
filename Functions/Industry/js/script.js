@@ -8,7 +8,7 @@ var userInput = prompt("How many pixels is the picture you want to use?");
 
 while (isNaN(userInput) || userInput===""){
     //reprompt user
-    userInput = prompt("PLEASE type a LOW number!")
+    userInput = prompt("PLEASE type a ONLY number!")
 }
 var maxPixels = 800;
 
