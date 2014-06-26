@@ -23,6 +23,6 @@ console.log(results);
 
  function jerseyNumber (minNum, maxNum){
 
-     var numberList = Math.random( ) * (maxNum-minNum) + Number(minNum);
+     var numberList = Math.round(Math.random( ) * (maxNum-minNum) + Number(minNum));
      return numberList;
  }
