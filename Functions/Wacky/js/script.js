@@ -18,4 +18,11 @@
      highestNumber = prompt("PLEASE type a HIGHTEST number!")
  }
 
+ var results = jerseyNumber(lowNumber, highestNumber);
+console.log(results);
 
+ function jerseyNumber (minNum, maxNum){
+
+     var numberList = Math.random( ) * (maxNum-minNum) + Number(minNum);
+     return numberList;
+ }

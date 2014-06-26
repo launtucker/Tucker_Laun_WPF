@@ -15,3 +15,4 @@ while (isNaN(maxMiles) || maxMiles==="") {
     //reprompt user
     maxMiles = prompt("PLEASE type a maximum NUMBER of miles!")
 }
+
