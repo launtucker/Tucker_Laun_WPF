@@ -22,9 +22,12 @@
      //reprompt user only nmbers
      highestNumber = prompt("PLEASE type a HIGHTEST number!")
  }
+
 //catching results
  var results = jerseyNumber(lowNumber, highestNumber);
-console.log(results);
+//Show results on log
+ console.log(results);
+
 //creating / generating list of random numbers
  function jerseyNumber (minNum, maxNum){
 
