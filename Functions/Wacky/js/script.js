@@ -26,3 +26,7 @@ console.log(results);
      var numberList = Math.round(Math.random( ) * (maxNum-minNum) + Number(minNum));
      return numberList;
  }
+for (var i=0; i<30; i++){
+    console.log(jerseyNumber(lowNumber, highestNumber) + " Random Jersey Numbers");
+
+}
