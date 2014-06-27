@@ -2,10 +2,13 @@
  * Created by laun tucker on 6/26/14 Personal Function.
  */
     //Creating a ramdon amount of miles you want to walk in a month
+
     //Days they jog
 var daysJogging = prompt("The number of days you jog a week?");
+
    //prompt user for only number
 while (isNaN(daysJogging) || daysJogging==="") {
+
     //reprompt user
     daysJogging = prompt(" PLEASE type a NUMBER of days!")
 }
@@ -15,7 +18,9 @@ var milesJogDay = prompt("How many miles a day do you jog?");
 
 //prompt user for only numbers.
 while (isNaN(milesJogDay) || milesJogDay==="") {
-    //reprompt user
+
+    //reprompt user to use only numbers
+
     milesJogDay = prompt(" PLEASE type a NUMBER of days!")
 }
 //total of weekly miles
