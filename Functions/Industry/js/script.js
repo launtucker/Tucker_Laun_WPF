@@ -3,13 +3,15 @@
  */
 // Setting a limit on pixels per picture
 // Not to use picture over 800 pixels
-
+// asking user how many pixels in picture
 var userInput = prompt("How many pixels is the picture you want to use?");
 
+//prompting only numbers
 while (isNaN(userInput) || userInput===""){
     //reprompt user
     userInput = prompt("PLEASE type a ONLY number!")
 }
+//Max number of pixels allowed
 var maxPixels = 800;
 
 if (userInput <800){
