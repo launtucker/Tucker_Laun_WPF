@@ -13,7 +13,7 @@ while (isNaN(userInput) || userInput===""){
 }
 //Max number of pixels allowed
 var maxPixels = 800;
-
+// message sent to log if pixels exceed limit.
 if (userInput <800){
     console.log("You are able to use that picture!")
 }else{
