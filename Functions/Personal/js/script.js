@@ -30,15 +30,15 @@ var actualMiles = weeklyMile * 4;
 var goalForMonth = prompt("How many miles would you like to reach total in a month?");
 
 while (isNaN(goalForMonth) || goalForMonth==="") {
-    //reprompt user
+    //re-prompt user
     goalForMonth = prompt("PLEASE type a maximum NUMBER of miles you want to reach in a Month!");
 }
 
-if (actualMiles >goalForMonth){
-    console.log("You Have Met your Goal ...Great Job!")
-}else{
-    console.log("Keep Jogging!")
+var goal;
 
-}
+goal = (actualMiles>goalForMonth) ? "You Have Met Your Goal..Great Job" : "Keep Jogging";
+console.log (goal);
+
+
 
 
