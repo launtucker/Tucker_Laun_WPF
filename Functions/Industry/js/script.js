@@ -1,7 +1,7 @@
 /**
  * Created by laun tucker on 6/26/14  Industry Function.
  */
-
+// Setting a limit on pixels per picture
 // Not to use picture over 800 pixels
 
 var userInput = prompt("How many pixels is the picture you want to use?");
