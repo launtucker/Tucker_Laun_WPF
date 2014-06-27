@@ -17,7 +17,7 @@
      //reprompt user
      highestNumber = prompt("PLEASE type a HIGHTEST number!")
  }
-//catching results 
+//catching results
  var results = jerseyNumber(lowNumber, highestNumber);
 console.log(results);
 //creating / generating list of random numbers

@@ -2,17 +2,43 @@
  * Created by laun tucker on 6/26/14 Personal Function.
  */
     //Creating a ramdon amount of miles you want to walk in a month
-
-var minMiles = prompt("The min amount of miles you want to walk in a day?");
-
-while (isNaN(minMiles) || minMiles==="") {
+    //Days they jog
+var daysJogging = prompt("The number of days you jog a week?");
+   //prompt user for only number
+while (isNaN(daysJogging) || daysJogging==="") {
     //reprompt user
-    minMiles = prompt("PLEASE type a minimum NUMBER of miles!")
+    daysJogging = prompt(" PLEASE type a NUMBER of days!")
 }
-var maxMiles = prompt("The max amount of miles you want to walk in a day?");
 
-while (isNaN(maxMiles) || maxMiles==="") {
+//how many miles a day.
+var milesJogDay = prompt("How many miles a day do you jog?");
+
+//prompt user for only numbers.
+while (isNaN(milesJogDay) || milesJogDay==="") {
     //reprompt user
-    maxMiles = prompt("PLEASE type a maximum NUMBER of miles!")
+    milesJogDay = prompt(" PLEASE type a NUMBER of days!")
 }
+//total of weekly miles
+var weeklyMile = daysJogging * milesJogDay;
+
+
+//monthly miles actually jogged
+var actualMiles = weeklyMile * 4;
+
+
+//Goals to reach in a month.
+var goalForMonth = prompt("How many miles would you like to reach total in a month?");
+
+while (isNaN(goalForMonth) || goalForMonth==="") {
+    //reprompt user
+    goalForMonth = prompt("PLEASE type a maximum NUMBER of miles you want to reach in a Month!");
+}
+
+if (actualMiles >goalForMonth){
+    console.log("You Have Met your Goal ...Great Job!")
+}else{
+    console.log("Keep Jogging!")
+
+}
+
 
